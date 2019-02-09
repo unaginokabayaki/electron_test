@@ -37,8 +37,9 @@ Win
 npx electron-packager src FirstApp --platform=win32 --arch=x64 --overwrite
 ```
 ## npm scripts
-"start": "electron ./src",
 ```
+"start": "electron ./src",
+
 npm run start 
 npm run build-win 
 npm run build-mac 
